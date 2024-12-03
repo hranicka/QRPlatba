@@ -1,24 +1,28 @@
 {
-    "name": "dfridrich/qr-platba",
+    "name": "hranicka/qr-platba",
     "type": "library",
-    "description": "Generování QR Plateb a QR Faktur v PHP.",
+    "description": "Generating payment QR codes for the Czech Republic.",
     "keywords": [
         "php",
         "qr",
         "platba"
     ],
-    "homepage": "https://github.com/dfridrich/QRPlatba",
+    "homepage": "https://github.com/hranicka/QRPlatba",
     "license": "MIT",
     "authors": [
         {
             "name": "Dennis Fridrich",
             "email": "fridrich.dennis@gmail.com"
+        },
+        {
+            "name": "Jaroslav Hranička",
+            "email": "hranicka@outlook.com"
         }
     ],
     "require": {
-        "php": ">=7.4.0",
-        "endroid/qr-code": "^4",
-        "jschaedl/iban-validation": "^1.4",
+        "php": ">=8.2",
+        "endroid/qr-code": "^6.0.3",
+        "jschaedl/iban-validation": "^v2.5.1",
         "ext-mbstring": "*"
     },
     "autoload": {
